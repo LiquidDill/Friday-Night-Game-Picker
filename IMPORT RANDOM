@@ -1,0 +1,39 @@
+import random
+random_number = random.randint(1, 15)
+
+Decision_Maker = 'Tonights game will be: '
+print(random_number)
+print(Decision_Maker)
+
+if random_number == 1:
+    print('PLACEHOLDER 1')
+elif random_number == 2:
+    print('PLACEHOLDER 2')
+elif random_number == 3:
+    print('PLACEHOLDER 3')
+elif random_number == 4:
+    print('PLACEHOLDER 4')
+elif random_number == 5:
+    print('PLACEHOLDER 5')
+elif random_number == 6:
+    print('PLACEHOLDER 6')
+elif random_number == 7:
+    print('PLACEHOLDER 7')
+elif random_number == 8:
+    print('PLACEHOLDER 8')
+elif random_number == 9:
+    print('PLACEHOLDER 9')
+elif random_number == 10:
+    print('PLACEHOLDER 10')
+elif random_number == 11:
+    print('PLACEHOLDER 11')
+elif random_number == 12:
+    print('PLACEHOLDER 12')
+elif random_number == 13:
+    print('PLACEHOLDER 13')
+elif random_number == 14:
+    print('PLACEHOLDER 14')
+elif random_number == 15:
+    print('PLACEHOLDER 15')
+else:
+    print('nothing lol')
